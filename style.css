@@ -517,7 +517,7 @@ font-size: 1rem;
 @media (max-width: 600px){
 	.recipe-list{
 	display:grid;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: 1fr;
 	gap: 16px;
 	padding: 0 16px;
 	max-width: 500px;
@@ -531,11 +531,19 @@ font-size: 1rem;
 	.card{
 	width:100%;
 	max-width:none;
+	display: flex;
+	flex-direction: column;
+	}
+	.card-content{
+		flex: 1;
 	}
 	.card-title{
 		font-size: 1rem;
 	}
 	.card-text{
 		font-size: 0.8rem;
+	}
+	h2{
+		font-size: 1.5rem;
 	}
 }
