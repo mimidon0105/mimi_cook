@@ -523,11 +523,6 @@ font-size: 1rem;
 	max-width: 500px;
 	margin: 0 auto;
 	}
-	.top-recipe-list .card:last-child{
-		grid-column: 1 / span 2;
-		justify-self: center;
-		max-width: 250px;
-	}
 	.card{
 	width:100%;
 	max-width:none;
@@ -544,6 +539,14 @@ font-size: 1rem;
 		font-size: 0.8rem;
 	}
 	h2{
-		font-size: 1.5rem;
+		font-size: 1.2rem;
+	}
+	.top-about-text{
+		font-size: 1rem;
+	}
+	.about-btn a,
+	.profile-btn a{
+		font-size: 0.9rem;
+		white-space: nowrap;
 	}
 }
