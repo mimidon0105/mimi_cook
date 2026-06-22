@@ -536,11 +536,11 @@ font-size: 1rem;
 	.card-text{
 		font-size: 0.8rem;
 	}
-	h2{
-		font-size: 1.2rem;
+	.section-title{
+		font-size: 1.1rem;
 	}
 	.top-about-text{
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 	.about-btn a,
 	.profile-btn a{
