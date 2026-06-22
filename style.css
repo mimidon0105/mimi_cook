@@ -518,16 +518,14 @@ font-size: 1rem;
 	.recipe-list{
 	display:grid;
 	grid-template-columns: 1fr;
-	gap: 16px;
-	padding: 0 16px;
-	max-width: 500px;
-	margin: 0 auto;
+	gap: 20px;
+	padding: 0;
+	width: 100%;
+	justify-items: center;
 	}
 	.card{
 	width:100%;
-	max-width:none;
-	display: flex;
-	flex-direction: column;
+	max-width: 320px;
 	}
 	.card-content{
 		flex: 1;
