@@ -516,12 +516,25 @@ font-size: 1rem;
 
 @media (max-width: 600px){
 	header{
+		height: 240px;
 		overflow: hidden;
 	}
 	header img{
-		width: 100%;
-		display: block;
+		width: 120%;
+		max-width: none;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		margin-left: -10%;
 	}
+	.top-header{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+		object-fit: contain;
+		margin-left: 0;
+	}
+
 	.recipe-list{
 	display:grid;
 	grid-template-columns: 1fr;
