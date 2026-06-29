@@ -530,12 +530,12 @@ font-size: 1rem;
 		overflow: hidden;;
 	}
 	.sub-header img{
-		width: 112%;
+		width: 108%;
 		max-width: none;
 		height: 100%;
 		object-fit: cover;
-		object-position: center;
-		margin-left: -6%;
+		object-position: 45% center;
+		margin-left: -4%;
 	}
 
 	.recipe-list{
