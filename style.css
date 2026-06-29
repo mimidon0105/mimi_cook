@@ -515,24 +515,27 @@ font-size: 1rem;
 
 
 @media (max-width: 600px){
-	header{
-		height: 240px;
-		overflow: hidden;
+	.top-header{
+		height: auto;
+		overflow: visible;
 	}
-	header img{
-		width: 120%;
+	.top-header img{
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+		margin-left: 0;
+	}
+	.sub-header{
+		height: 240px;
+		overflow: hidden;;
+	}
+	.sub-header img{
+		width: 112%;
 		max-width: none;
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
-		margin-left: -10%;
-	}
-	.top-header{
-		width: 100%;
-		height: auto;
-		max-width: 100%;
-		object-fit: contain;
-		margin-left: 0;
+		margin-left: -6%;
 	}
 
 	.recipe-list{
